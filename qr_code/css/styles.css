@@ -29,7 +29,7 @@ body {
     border-radius: 15px;
     aspect-ratio: 1/1;
 }
-#card > h2 {
+#card > h1 {
     font-family: 'Outfit-bold';
     font-size: 22px;
     line-height: 120%;
