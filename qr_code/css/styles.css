@@ -1,6 +1,13 @@
+:root {
+    --white:hsl(0, 0%, 100%);
+    --azul-clarito:hsl(212, 45%, 89%);
+    --azul-medio:hsl(216, 15%, 48%);
+    --azul-oscuro:hsl(218, 44%, 22%);
+}
+
 body {
     margin: 0;
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--azul-clarito);
     display: grid;
     place-items: center;
     width: 100dvw;
@@ -8,7 +15,7 @@ body {
     text-align: center;
 }
 #card{
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white);
     width: 280px;
     display: grid;
     place-items: center;
@@ -26,7 +33,7 @@ body {
     font-size: 22px;
     line-height: 120%;
     letter-spacing: 0px;
-    color: hsl(218, 44%, 22%);
+    color: var(--azul-oscuro);
     margin-bottom: 0;
 }
 
@@ -35,7 +42,7 @@ body {
     font-size: 15px;
     line-height: 140%;
     letter-spacing: 0.3px;
-    color: hsl(216, 15%, 48%);
+    color: var(--azul-medio);
 }
 
 
@@ -53,13 +60,13 @@ body {
     #autor > a{
         font-family: 'Outfit-bold';
         text-decoration: none;
-        color: hsl(218, 44%, 22%);
+        color: var(--azul-oscuro);
     }
 
     #autor > a:hover{
         font-family: 'Outfit-bold';
         text-decoration: none;
-        color: hsl(216, 15%, 48%);
+        color: var(--azul-medio);
     }
 }
 

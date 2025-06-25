@@ -30,7 +30,7 @@ Y en ordenador de la siguiente (1440px):
 
 ### Enlaces
 
-- URL de la solución: [https://github.com/tu-usuario/frontend-mentor-challenges/tree/main/qr-code-component](https://github.com/tu-usuario/frontend-mentor-challenges/tree/main/qr-code-component)
+- URL de la solución: [https://github.com/ImTommyDev/FrontendMentorProjects/tree/main/qr_code](https://github.com/ImTommyDev/FrontendMentorProjects/tree/main/qr_code)
 - URL del sitio en vivo: [https://tu-sitio.com/qr-code-component](https://tu-sitio.com/qr-code-component)
 
 ## Mi proceso
@@ -52,6 +52,7 @@ En este proyecto he podido practicar y aprender varias técnicas:
 - Cómo importar fuentes personalizadas mediante `@font-face`.
 - Aplicación de sombras (`box-shadow`) y bordes redondeados (`border-radius`) para crear un diseño limpio y atractivo.
 - Implementación de un flujo de diseño mobile-first desde el inicio.
+- Parametrización de colores en CSS
 
 ### Recursos útiles
 
