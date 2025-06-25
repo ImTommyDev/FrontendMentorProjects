@@ -1,10 +1,9 @@
-# Workflow para desplegar contenido estático a GitHub Pages
 name: Deploy static content to Pages
 
 on:
   push:
-    branches: ["main"]  # Se ejecuta cuando haces push a main
-  workflow_dispatch:     # Permite ejecutarlo manualmente
+    branches: ["main"] 
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -31,8 +30,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Solo subimos la carpeta qr_code
-          path: 'qr_code/html'
+          path: '../qr_code/html'
 
       - name: Deploy to GitHub Pages
         id: deployment
