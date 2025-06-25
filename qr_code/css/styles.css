@@ -13,6 +13,7 @@ body {
     width: 100dvw;
     height: 100dvh;
     text-align: center;
+    position:relative;
 }
 #card{
     background-color: var(--white);
@@ -48,6 +49,8 @@ body {
 
 #autor{
     visibility: hidden;
+    position:absolute;
+    bottom: 12%;
 }
 
 /*Ajustes para pantallas grandes*/
