@@ -12,7 +12,6 @@ Esta es mi solución al reto [QR code component challenge en Frontend Mentor](ht
   - [Lo que he aprendido](#lo-que-he-aprendido)
   - [Recursos útiles](#recursos-útiles)
 - [Autor](#autor)
-- [Agradecimientos](#agradecimientos)
 
 ## Descripción general
 
