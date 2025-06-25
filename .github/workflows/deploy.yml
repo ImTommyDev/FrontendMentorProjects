@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Solo subimos la carpeta qr_code
-          path: 'qr_code'
+          path: 'qr_code/html'
 
       - name: Deploy to GitHub Pages
         id: deployment
