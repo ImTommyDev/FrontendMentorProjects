@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Mentor Projects</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/tommy.ico" type="image/x-icon">
+    <title>Frontend Mentor Projects de Tommy</title>
 </head>
 <body>
-    <h1>Welcome to Tommy's Frontend Mentor Projects</h1>
-    <p>Select an option below to view my completed challenges:</p>
+    <header>
+        <h1>Welcome to Tommy's Frontend Mentor Projects</h1>
+    </header>
 
-    <ul>
-        <li><a href="qr_code/html/index.html">Qr code</a></li>
-        <li><a href="blog_preview_card/html/index.html">Blog Preview Card</a></li>
-    </ul>
+    <main>
+        <a href="qr_code/html/index.html" class="project-link-wrapper">
+        <section class="project-card">
+            <img src="qr_code/screenshots/1440px.png" alt="QR Code Project Screenshot" />
+            <div class="card-content">
+                <h2>QR Code</h2>
+                <p>A simple QR Code component challenge from Frontend Mentor.</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+        </section>
+        </a>
+
+        <a href="blog_preview_card/html/index.html" class="project-link-wrapper">
+            <section class="project-card">
+            <img src="blog_preview_card/screenshots/1440px.png" alt="Blog Preview Card Screenshot" />
+            <div class="card-content">
+                <h2>Blog Preview Card</h2>
+                <p>A card layout preview of a blog article, using clean and modern styles.</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+            </section>
+        </a>
+    </main>
+
+    <footer>
+        <p>Created by &mdash; <a href="https://www.linkedin.com/in/tomás-primo-rico-801498231">Tomás Primo Rico</a></p>
+    </footer>
 </body>
 </html>
